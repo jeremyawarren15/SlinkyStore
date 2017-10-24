@@ -1,0 +1,12 @@
+.contentWrapper {
+
+}
+
+.productPhoto {
+	max-width: 100%;
+}
+
+section.productArea > div {
+	width: 250px;
+	float: left;
+}
