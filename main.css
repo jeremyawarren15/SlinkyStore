@@ -6,7 +6,16 @@
 	max-width: 100%;
 }
 
+section.productArea {
+	width: 60%;
+	margin:auto;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	background-color: black;
+	padding: 15px;
+}
+
 section.productArea > div {
-	width: 250px;
-	float: left;
+	width:20%;
 }
