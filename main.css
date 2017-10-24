@@ -12,10 +12,14 @@ section.productArea {
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
-	background-color: black;
+	background-color: gray;
 	padding: 15px;
 }
 
 section.productArea > div {
 	width:20%;
+}
+
+h3 {
+	font-size: 50%;
 }
