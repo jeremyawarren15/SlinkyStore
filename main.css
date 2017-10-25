@@ -1,8 +1,16 @@
+body { 
+	background-color: black;
+	background: url(images/slinky-background.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
 .contentWrapper {
 	width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: green;
 }
 
 .product {
@@ -20,10 +28,10 @@
 
 .productArea {
 	width: 720px;
-	background-color: gray;
+	background-color: rgba(0,0,0,0.5);
 	padding: 15px;
 	overflow: auto;
-	opacity: 50%;
+	border-radius: 5px;
 }
 
 h3 {
@@ -33,6 +41,7 @@ h3 {
 #headerTextArea {
 	width: 720px;
 	float: left;
+	color: white;
 }
 
 nav {
@@ -40,7 +49,19 @@ nav {
 	margin-right: 15px;
 }
 
+nav > a {
+	color: white;
+}
+
+nav > a:hover {
+	color: lightgray;
+}
+
 header {
 	padding: 15px;
 	margin-bottom: 20px;
+	background-color: rgba(0,0,0,0.5);
+	overflow: auto;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
 }
