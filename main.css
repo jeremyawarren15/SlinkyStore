@@ -20,9 +20,10 @@
 
 .productArea {
 	width: 720px;
-	background-color: purple;
+	background-color: gray;
 	padding: 15px;
 	overflow: auto;
+	opacity: 50%;
 }
 
 h3 {
