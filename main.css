@@ -7,8 +7,8 @@ body {
 	background-size: cover;
 }
 
-.productBottom > h4 {
-	margin-top: 15px;
+.productBottom {
+	padding: 15px;
 }
 
 .contentWrapper {
@@ -23,11 +23,12 @@ body {
 	background-color: darkgray;
 	width: 200px;
 	border-radius: 5px;
-	padding: 10px;
 }
 
 .productPhoto {
 	max-width: 100%;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
 }
 
 .productArea {
