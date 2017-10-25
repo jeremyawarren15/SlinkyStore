@@ -32,6 +32,16 @@ body {
 	padding: 15px;
 	overflow: auto;
 	border-radius: 5px;
+	float: left;
+}
+
+.sidebar {
+	background-color: rgba(0,0,0,0.5);
+	padding: 15px;
+	border-radius: 5px;
+	width: 250px;
+	float: right;
+	color: white;
 }
 
 h3 {
