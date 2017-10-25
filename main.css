@@ -7,6 +7,10 @@ body {
 	background-size: cover;
 }
 
+.productBottom > h4 {
+	margin-top: 15px;
+}
+
 .contentWrapper {
 	width: 1000px;
 	margin-left: auto;
